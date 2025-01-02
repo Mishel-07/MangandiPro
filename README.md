@@ -1,6 +1,7 @@
 # Mangandi - Python Package
 
->Please note that this project is no longer being maintained. If you are looking for an alternative, it would be >advisable because we lack the funds to continue maintaining it. If you wish to make a donation, please visit the >Telegram group @XBOTSUPPORTS.
+>Please note that this project is no longer being maintained. If you are looking for an alternative, it would be advisable because we lack the funds to continue maintaining it. If you wish to make a donation, please visit the
+Telegram group [Group](https://t.me/XBOTSUPPORTS).
 
 Welcome to the Mangandi python package repository! 🐍
 
