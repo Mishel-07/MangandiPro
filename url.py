@@ -1,1 +1,0 @@
-# https://magandi.onrender.com
