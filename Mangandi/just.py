@@ -11,7 +11,7 @@ class JustUploader:
         data = self.file_path
         files = {"file": data}
         response = requests.post(
-            f"{self.URL}/pupload",
+            f"{self.URL}/upload",
             files=files
         )
 
