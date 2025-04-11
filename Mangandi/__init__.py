@@ -4,4 +4,4 @@ from .audio import *
 from .mangandipro import *
 from .just import JustUploader
 
-__version__ = "1.0.12"
+__version__ = "1.0.13"
