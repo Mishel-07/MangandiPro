@@ -34,5 +34,4 @@ print(f"Image uploaded! Link: {link}")
 
 ## Support
 
-Need help? Join our Telegram group:  
-https://t.me/XBOTSUPPORTS
+Need help? Join our [Telegram group](https://t.me/XBOTSUPPORTS)
