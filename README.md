@@ -1,30 +1,38 @@
-# Mangandi - Python Package
+# Mangandi 
 
->Please note that this project is no longer being maintained. If you are looking for an alternative, it would be advisable because we lack the funds to continue maintaining it. If you wish to make a donation, please visit the
-Telegram group [Group](https://t.me/XBOTSUPPORTS).
-
-Welcome to the Mangandi python package repository! 🐍
+Mangandi is a secure media store that lets you upload and store images, videos, and other files directly to the Mangandi server — safely and privately.
 
 ## Overview
-Mangandi is a super cool python package that allows you to easily work with videos and images. It provides powerful tools for image and video manipulation in Python.
+
+Mangandi is a simple yet powerful Python package for managing media files. With just a few lines of code, you can upload your media and get a secure shareable link.
+
+## Features
+
+- Upload images, videos, and other files  
+- Store securely on Mangandi servers  
+- Get instant shareable links  
+- Lightweight and easy to use
 
 ## Installation
-You can install Mangandi via PyPI. Simply run:
 
-```pip install Mangandi```
-
-## Support
-Join our Telegram support group [Support](https://t.me/XBOTSUPPORTS) for any help or queries related to Mangandi.
-
-# Usage 
+Install via PyPI:
 
 ```
+pip install Mangandi
+```
 
+## Example Usage
+
+```
 from Mangandi import ImageUploader
 
-k = "/path/to/your/file.jpg"
-up = ImageUploader(k)
-link = up.upload()
-print(f"Image uploaded! {link}")
+file_path = "/path/to/your/image.jpg"
+uploader = ImageUploader(file_path)
+link = uploader.upload()
+print(f"Image uploaded! Link: {link}")
 ```
 
+## Support
+
+Need help? Join our Telegram group:  
+https://t.me/XBOTSUPPORTS
