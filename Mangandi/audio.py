@@ -27,6 +27,6 @@ class AudioUploader:
     def upload(self) -> str:
         response_json = self._upload()
         if "link" in response_json:
-            return response_json["link"]
+            return response_json["url"]
         else:
             return "not found"
