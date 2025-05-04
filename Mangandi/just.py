@@ -2,7 +2,7 @@ import requests
 from typing import Union
 
 class JustUploader:
-    URL = "https://mangandi-2-0.onrender.com"
+    URL = "https://storage.mangoi.in"
 
     def __init__(self, file_path: str):
         self.file_path = file_path
@@ -22,7 +22,7 @@ class JustUploader:
 
     def upload(self) -> str:
         response_json = self._upload()
-        if "link" in response_json:
-            return response_json["link"]
+        if "url" in response_json:
+            return response_json["url"]
         else:
             return "not found"
