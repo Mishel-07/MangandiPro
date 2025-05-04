@@ -2,7 +2,7 @@ import requests
 from typing import Union
 
 class AudioUploader:
-    URL = "https://mangandi-2-0.onrender.com"
+    URL = "https://storage.mangoi.in"
 
     def __init__(self, file_path: str):
         self.file_path = file_path
@@ -15,7 +15,7 @@ class AudioUploader:
         data = self._read_file()
         files = {"file": data}
         response = requests.post(
-            f"{self.URL}/aupload",
+            f"{self.URL}/upload",
             files=files
         )
 
