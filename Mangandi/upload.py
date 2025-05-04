@@ -2,7 +2,7 @@ import requests
 from typing import Union
 
 class ImageUploader:
-    URL = "https://mangandi-2-0.onrender.com"
+    URL = "https://storage.mangoi.in"
 
     def __init__(self, file_path: str):
         self.file_path = file_path
@@ -15,7 +15,7 @@ class ImageUploader:
         data = self._read_file()
         files = {"file": data}
         response = requests.post(
-            f"{self.URL}/pupload",
+            f"{self.URL}/upload",
             files=files
         )
 
@@ -26,7 +26,7 @@ class ImageUploader:
 
     def upload(self) -> str:
         response_json = self._upload()
-        if "link" in response_json:
-            return response_json["link"]
+        if "url" in response_json:
+            return response_json["url"]
         else:
             return "not found"
